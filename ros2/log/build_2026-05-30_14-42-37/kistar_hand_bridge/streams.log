@@ -1,0 +1,44 @@
+[0.007s] Invoking command in '/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/build/kistar_hand_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/build/kistar_hand_bridge -- -j8 -l8
+[0.032s] [ 66%] Building CXX object CMakeFiles/kistar_hand_bridge_node.dir/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/src/shm.cpp.o
+[0.032s] [ 66%] Building CXX object CMakeFiles/kistar_hand_bridge_node.dir/src/kistar_hand_bridge_node.cpp.o
+[0.074s] /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/src/shm.cpp: In function ‘void init_shm(int, int&, SHMmsgs**)’:
+[0.074s] /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/src/shm.cpp:29:20: warning: ‘void* memset(void*, int, size_t)’ clearing an object of type ‘struct SHMmsgs’ with no trivial copy-assignment; use value-initialization instead [-Wclass-memaccess]
+[0.074s]    29 |         std::memset(*shm_ref, 0, sizeof(SHMmsgs));
+[0.074s]       |         ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0.074s] In file included from /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/src/shm.cpp:1:
+[0.074s] /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/kistar_hand_bridge/../../inc/shm.h:46:8: note: ‘struct SHMmsgs’ declared here
+[0.074s]    46 | struct SHMmsgs {
+[0.074s]       |        ^~~~~~~
+[0.074s] /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/src/shm.cpp: In function ‘void init_arm_traj_shm(int, int&, ArmTrajShm**)’:
+[0.075s] /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/src/shm.cpp:79:20: warning: ‘void* memset(void*, int, size_t)’ clearing an object of type ‘struct ArmTrajShm’ with no trivial copy-assignment; use value-initialization instead [-Wclass-memaccess]
+[0.075s]    79 |         std::memset(*shm_ref, 0, sizeof(ArmTrajShm));
+[0.075s]       |         ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0.075s] In file included from /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/src/shm.cpp:1:
+[0.075s] /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/kistar_hand_bridge/../../inc/shm.h:41:8: note: ‘struct ArmTrajShm’ declared here
+[0.075s]    41 | struct ArmTrajShm {
+[0.075s]       |        ^~~~~~~~~~
+[13.709s] [100%] Linking CXX executable kistar_hand_bridge_node
+[14.520s] [100%] Built target kistar_hand_bridge_node
+[14.524s] Invoked command in '/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/build/kistar_hand_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/build/kistar_hand_bridge -- -j8 -l8
+[14.528s] Invoking command in '/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/build/kistar_hand_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/build/kistar_hand_bridge
+[14.530s] -- Install configuration: ""
+[14.530s] -- Installing: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/lib/kistar_hand_bridge/kistar_hand_bridge_node
+[14.541s] -- Set non-toolchain portion of runtime path of "/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/lib/kistar_hand_bridge/kistar_hand_bridge_node" to ""
+[14.541s] -- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/launch
+[14.541s] -- Installing: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/launch/hand_bridge.launch.py
+[14.541s] -- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/ament_index/resource_index/package_run_dependencies/kistar_hand_bridge
+[14.541s] -- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/ament_index/resource_index/parent_prefix_path/kistar_hand_bridge
+[14.541s] -- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/environment/ament_prefix_path.sh
+[14.541s] -- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/environment/ament_prefix_path.dsv
+[14.541s] -- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/environment/path.sh
+[14.541s] -- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/environment/path.dsv
+[14.541s] -- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/local_setup.bash
+[14.541s] -- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/local_setup.sh
+[14.541s] -- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/local_setup.zsh
+[14.541s] -- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/local_setup.dsv
+[14.541s] -- Installing: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/package.dsv
+[14.541s] -- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/ament_index/resource_index/packages/kistar_hand_bridge
+[14.542s] -- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/cmake/kistar_hand_bridgeConfig.cmake
+[14.542s] -- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/cmake/kistar_hand_bridgeConfig-version.cmake
+[14.542s] -- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/package.xml
+[14.542s] Invoked command in '/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/build/kistar_hand_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/build/kistar_hand_bridge

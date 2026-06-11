@@ -1,0 +1,245 @@
+[0.000000] (-) TimerEvent: {}
+[0.000106] (kistar_hand_bridge) JobQueued: {'identifier': 'kistar_hand_bridge', 'dependencies': OrderedDict()}
+[0.000427] (kistar_hand_bridge) JobStarted: {'identifier': 'kistar_hand_bridge'}
+[0.006384] (kistar_hand_bridge) JobProgress: {'identifier': 'kistar_hand_bridge', 'progress': 'cmake'}
+[0.006733] (kistar_hand_bridge) Command: {'cmd': ['/usr/bin/cmake', '/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/kistar_hand_bridge', '-DCMAKE_INSTALL_PREFIX=/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge'], 'cwd': '/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/build/kistar_hand_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'ko:en'), ('USER', 'prime'), ('LC_TIME', 'ko_KR.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"ko","osLocale":"ko","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"ko","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('DEBUG', 'release'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/prime'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-1f012356-1.10-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2011'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cf33de3203dbd01b1e5f61556a1896e3'), ('COLORTERM', ''), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'prime'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'prime'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/prime/.local/bin:/home/prime/.local/bin:/home/prime/.codex/tmp/arg0/codex-arg0U8lnp5:/home/prime/.local/bin:/opt/ros/humble/bin:/home/prime/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/bin:/home/prime/.vscode/extensions/openai.chatgpt-26.519.32039-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/prime:@/tmp/.ICE-unix/2011,unix/prime:/tmp/.ICE-unix/2011'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ff3c05bf_3b21_4ba4_b6c3_3372f8639936'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BWYTP3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.399'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '9'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019e775d-c0ed-7fd3-a8ea-18ec5ed935a8'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/build/kistar_hand_bridge'), ('VSCODE_CLI', '1'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/prime/.config/Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cf33de3203dbd01b1e5f61556a1896e3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('VSCODE_PID', '69871'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.033009] (kistar_hand_bridge) StderrLine: {'line': b'CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.033160] (kistar_hand_bridge) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.033204] (kistar_hand_bridge) StderrLine: {'line': b'  CMake.\n'}
+[0.033240] (kistar_hand_bridge) StderrLine: {'line': b'\n'}
+[0.033277] (kistar_hand_bridge) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.033322] (kistar_hand_bridge) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.033366] (kistar_hand_bridge) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.033416] (kistar_hand_bridge) StderrLine: {'line': b'\n'}
+[0.033464] (kistar_hand_bridge) StderrLine: {'line': b'\n'}
+[0.064371] (kistar_hand_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099832] (-) TimerEvent: {}
+[0.111692] (kistar_hand_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.117310] (kistar_hand_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.157759] (kistar_hand_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.168747] (kistar_hand_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.168937] (kistar_hand_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.169121] (kistar_hand_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.176873] (kistar_hand_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199929] (-) TimerEvent: {}
+[0.224805] (kistar_hand_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.235489] (kistar_hand_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.235684] (kistar_hand_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.236052] (kistar_hand_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.243150] (kistar_hand_bridge) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300023] (-) TimerEvent: {}
+[0.340471] (kistar_hand_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[0.400180] (-) TimerEvent: {}
+[0.420698] (kistar_hand_bridge) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.480190] (kistar_hand_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.485944] (kistar_hand_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.497864] (kistar_hand_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.500255] (-) TimerEvent: {}
+[0.515616] (kistar_hand_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.535601] (kistar_hand_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600353] (-) TimerEvent: {}
+[0.601721] (kistar_hand_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.605524] (kistar_hand_bridge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.683543] (kistar_hand_bridge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[0.700457] (-) TimerEvent: {}
+[0.711932] (kistar_hand_bridge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[0.747813] (kistar_hand_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.757970] (kistar_hand_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800442] (kistar_hand_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.800564] (-) TimerEvent: {}
+[0.801409] (kistar_hand_bridge) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[0.874749] (kistar_hand_bridge) StdoutLine: {'line': b'-- Found trajectory_msgs: 4.9.1 (/opt/ros/humble/share/trajectory_msgs/cmake)\n'}
+[0.900668] (-) TimerEvent: {}
+[0.964303] (kistar_hand_bridge) StdoutLine: {'line': b'-- Configuring done (1.0s)\n'}
+[0.974807] (kistar_hand_bridge) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.989832] (kistar_hand_bridge) StdoutLine: {'line': b'-- Build files have been written to: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/build/kistar_hand_bridge\n'}
+[0.998880] (kistar_hand_bridge) CommandEnded: {'returncode': 0}
+[0.999432] (kistar_hand_bridge) JobProgress: {'identifier': 'kistar_hand_bridge', 'progress': 'build'}
+[1.000027] (kistar_hand_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/build/kistar_hand_bridge', '--', '-j8', '-l8'], 'cwd': '/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/build/kistar_hand_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'ko:en'), ('USER', 'prime'), ('LC_TIME', 'ko_KR.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"ko","osLocale":"ko","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"ko","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('DEBUG', 'release'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/prime'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-1f012356-1.10-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2011'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cf33de3203dbd01b1e5f61556a1896e3'), ('COLORTERM', ''), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'prime'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'prime'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/prime/.local/bin:/home/prime/.local/bin:/home/prime/.codex/tmp/arg0/codex-arg0U8lnp5:/home/prime/.local/bin:/opt/ros/humble/bin:/home/prime/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/bin:/home/prime/.vscode/extensions/openai.chatgpt-26.519.32039-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/prime:@/tmp/.ICE-unix/2011,unix/prime:/tmp/.ICE-unix/2011'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ff3c05bf_3b21_4ba4_b6c3_3372f8639936'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BWYTP3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.399'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '9'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019e775d-c0ed-7fd3-a8ea-18ec5ed935a8'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/build/kistar_hand_bridge'), ('VSCODE_CLI', '1'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/prime/.config/Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cf33de3203dbd01b1e5f61556a1896e3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('VSCODE_PID', '69871'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.000916] (-) TimerEvent: {}
+[1.019147] (kistar_hand_bridge) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/kistar_hand_bridge_node.dir/src/kistar_hand_bridge_node.cpp.o\n'}
+[1.101020] (-) TimerEvent: {}
+[1.201183] (-) TimerEvent: {}
+[1.301348] (-) TimerEvent: {}
+[1.401515] (-) TimerEvent: {}
+[1.501686] (-) TimerEvent: {}
+[1.601856] (-) TimerEvent: {}
+[1.702020] (-) TimerEvent: {}
+[1.802181] (-) TimerEvent: {}
+[1.902356] (-) TimerEvent: {}
+[2.002527] (-) TimerEvent: {}
+[2.102690] (-) TimerEvent: {}
+[2.202863] (-) TimerEvent: {}
+[2.303033] (-) TimerEvent: {}
+[2.403190] (-) TimerEvent: {}
+[2.503361] (-) TimerEvent: {}
+[2.603526] (-) TimerEvent: {}
+[2.703686] (-) TimerEvent: {}
+[2.803884] (-) TimerEvent: {}
+[2.904051] (-) TimerEvent: {}
+[3.004273] (-) TimerEvent: {}
+[3.104436] (-) TimerEvent: {}
+[3.204604] (-) TimerEvent: {}
+[3.304774] (-) TimerEvent: {}
+[3.404931] (-) TimerEvent: {}
+[3.505100] (-) TimerEvent: {}
+[3.605277] (-) TimerEvent: {}
+[3.705450] (-) TimerEvent: {}
+[3.805608] (-) TimerEvent: {}
+[3.905765] (-) TimerEvent: {}
+[4.005927] (-) TimerEvent: {}
+[4.106093] (-) TimerEvent: {}
+[4.206254] (-) TimerEvent: {}
+[4.306412] (-) TimerEvent: {}
+[4.406573] (-) TimerEvent: {}
+[4.506735] (-) TimerEvent: {}
+[4.606910] (-) TimerEvent: {}
+[4.707090] (-) TimerEvent: {}
+[4.807724] (-) TimerEvent: {}
+[4.907909] (-) TimerEvent: {}
+[5.008095] (-) TimerEvent: {}
+[5.108309] (-) TimerEvent: {}
+[5.208471] (-) TimerEvent: {}
+[5.308644] (-) TimerEvent: {}
+[5.408817] (-) TimerEvent: {}
+[5.508989] (-) TimerEvent: {}
+[5.609164] (-) TimerEvent: {}
+[5.709345] (-) TimerEvent: {}
+[5.809560] (-) TimerEvent: {}
+[5.909756] (-) TimerEvent: {}
+[6.009956] (-) TimerEvent: {}
+[6.110109] (-) TimerEvent: {}
+[6.210270] (-) TimerEvent: {}
+[6.310438] (-) TimerEvent: {}
+[6.410610] (-) TimerEvent: {}
+[6.510810] (-) TimerEvent: {}
+[6.610981] (-) TimerEvent: {}
+[6.711143] (-) TimerEvent: {}
+[6.811304] (-) TimerEvent: {}
+[6.911458] (-) TimerEvent: {}
+[7.011615] (-) TimerEvent: {}
+[7.111771] (-) TimerEvent: {}
+[7.211930] (-) TimerEvent: {}
+[7.312105] (-) TimerEvent: {}
+[7.412262] (-) TimerEvent: {}
+[7.512436] (-) TimerEvent: {}
+[7.612618] (-) TimerEvent: {}
+[7.712790] (-) TimerEvent: {}
+[7.812950] (-) TimerEvent: {}
+[7.913107] (-) TimerEvent: {}
+[8.013267] (-) TimerEvent: {}
+[8.113425] (-) TimerEvent: {}
+[8.213577] (-) TimerEvent: {}
+[8.313752] (-) TimerEvent: {}
+[8.413925] (-) TimerEvent: {}
+[8.514499] (-) TimerEvent: {}
+[8.614678] (-) TimerEvent: {}
+[8.714838] (-) TimerEvent: {}
+[8.815009] (-) TimerEvent: {}
+[8.915184] (-) TimerEvent: {}
+[9.015348] (-) TimerEvent: {}
+[9.115515] (-) TimerEvent: {}
+[9.215683] (-) TimerEvent: {}
+[9.315847] (-) TimerEvent: {}
+[9.416005] (-) TimerEvent: {}
+[9.516158] (-) TimerEvent: {}
+[9.616323] (-) TimerEvent: {}
+[9.716491] (-) TimerEvent: {}
+[9.816642] (-) TimerEvent: {}
+[9.916803] (-) TimerEvent: {}
+[10.017009] (-) TimerEvent: {}
+[10.117165] (-) TimerEvent: {}
+[10.217317] (-) TimerEvent: {}
+[10.317518] (-) TimerEvent: {}
+[10.417726] (-) TimerEvent: {}
+[10.517878] (-) TimerEvent: {}
+[10.618040] (-) TimerEvent: {}
+[10.718208] (-) TimerEvent: {}
+[10.818375] (-) TimerEvent: {}
+[10.918544] (-) TimerEvent: {}
+[11.018722] (-) TimerEvent: {}
+[11.118899] (-) TimerEvent: {}
+[11.219083] (-) TimerEvent: {}
+[11.319262] (-) TimerEvent: {}
+[11.419454] (-) TimerEvent: {}
+[11.519636] (-) TimerEvent: {}
+[11.619824] (-) TimerEvent: {}
+[11.719984] (-) TimerEvent: {}
+[11.820161] (-) TimerEvent: {}
+[11.920312] (-) TimerEvent: {}
+[12.020469] (-) TimerEvent: {}
+[12.120631] (-) TimerEvent: {}
+[12.220784] (-) TimerEvent: {}
+[12.320939] (-) TimerEvent: {}
+[12.421103] (-) TimerEvent: {}
+[12.521263] (-) TimerEvent: {}
+[12.621420] (-) TimerEvent: {}
+[12.721577] (-) TimerEvent: {}
+[12.821739] (-) TimerEvent: {}
+[12.921891] (-) TimerEvent: {}
+[13.022048] (-) TimerEvent: {}
+[13.122203] (-) TimerEvent: {}
+[13.222366] (-) TimerEvent: {}
+[13.322529] (-) TimerEvent: {}
+[13.422692] (-) TimerEvent: {}
+[13.522862] (-) TimerEvent: {}
+[13.623014] (-) TimerEvent: {}
+[13.723167] (-) TimerEvent: {}
+[13.823333] (-) TimerEvent: {}
+[13.923509] (-) TimerEvent: {}
+[14.023681] (-) TimerEvent: {}
+[14.123845] (-) TimerEvent: {}
+[14.224028] (-) TimerEvent: {}
+[14.324203] (-) TimerEvent: {}
+[14.424364] (-) TimerEvent: {}
+[14.524525] (-) TimerEvent: {}
+[14.624690] (-) TimerEvent: {}
+[14.724867] (-) TimerEvent: {}
+[14.825049] (-) TimerEvent: {}
+[14.925224] (-) TimerEvent: {}
+[14.963098] (kistar_hand_bridge) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/kistar_hand_bridge_node.dir/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/src/shm.cpp.o\n'}
+[15.003526] (kistar_hand_bridge) StderrLine: {'line': b'/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/src/shm.cpp: In function \xe2\x80\x98void init_shm(int, int&, SHMmsgs**)\xe2\x80\x99:\n'}
+[15.003727] (kistar_hand_bridge) StderrLine: {'line': b'/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/src/shm.cpp:28:20: warning: \xe2\x80\x98void* memset(void*, int, size_t)\xe2\x80\x99 clearing an object of type \xe2\x80\x98struct SHMmsgs\xe2\x80\x99 with no trivial copy-assignment; use value-initialization instead [-Wclass-memaccess]\n'}
+[15.003821] (kistar_hand_bridge) StderrLine: {'line': b'   28 |         std::memset(*shm_ref, 0, sizeof(SHMmsgs));\n'}
+[15.003883] (kistar_hand_bridge) StderrLine: {'line': b'      |         ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[15.003936] (kistar_hand_bridge) StderrLine: {'line': b'In file included from /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/src/shm.cpp:1:\n'}
+[15.003990] (kistar_hand_bridge) StderrLine: {'line': b'/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/kistar_hand_bridge/../../inc/shm.h:41:8: note: \xe2\x80\x98struct SHMmsgs\xe2\x80\x99 declared here\n'}
+[15.004045] (kistar_hand_bridge) StderrLine: {'line': b'   41 | struct SHMmsgs {\n'}
+[15.004669] (kistar_hand_bridge) StderrLine: {'line': b'      |        ^~~~~~~\n'}
+[15.016881] (kistar_hand_bridge) StdoutLine: {'line': b'[100%] Linking CXX executable kistar_hand_bridge_node\n'}
+[15.025322] (-) TimerEvent: {}
+[15.125498] (-) TimerEvent: {}
+[15.225665] (-) TimerEvent: {}
+[15.325825] (-) TimerEvent: {}
+[15.425976] (-) TimerEvent: {}
+[15.526131] (-) TimerEvent: {}
+[15.626287] (-) TimerEvent: {}
+[15.726452] (-) TimerEvent: {}
+[15.826617] (-) TimerEvent: {}
+[15.882319] (kistar_hand_bridge) StdoutLine: {'line': b'[100%] Built target kistar_hand_bridge_node\n'}
+[15.886000] (kistar_hand_bridge) CommandEnded: {'returncode': 0}
+[15.886745] (kistar_hand_bridge) JobProgress: {'identifier': 'kistar_hand_bridge', 'progress': 'install'}
+[15.889891] (kistar_hand_bridge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/build/kistar_hand_bridge'], 'cwd': '/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/build/kistar_hand_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'ko:en'), ('USER', 'prime'), ('LC_TIME', 'ko_KR.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"ko","osLocale":"ko","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"ko","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('DEBUG', 'release'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/prime'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-1f012356-1.10-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2011'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cf33de3203dbd01b1e5f61556a1896e3'), ('COLORTERM', ''), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'prime'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'prime'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/prime/.local/bin:/home/prime/.local/bin:/home/prime/.codex/tmp/arg0/codex-arg0U8lnp5:/home/prime/.local/bin:/opt/ros/humble/bin:/home/prime/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/bin:/home/prime/.vscode/extensions/openai.chatgpt-26.519.32039-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/prime:@/tmp/.ICE-unix/2011,unix/prime:/tmp/.ICE-unix/2011'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ff3c05bf_3b21_4ba4_b6c3_3372f8639936'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BWYTP3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.399'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '9'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019e775d-c0ed-7fd3-a8ea-18ec5ed935a8'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/build/kistar_hand_bridge'), ('VSCODE_CLI', '1'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/prime/.config/Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cf33de3203dbd01b1e5f61556a1896e3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('VSCODE_PID', '69871'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[15.892652] (kistar_hand_bridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.892809] (kistar_hand_bridge) StdoutLine: {'line': b'-- Installing: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/lib/kistar_hand_bridge/kistar_hand_bridge_node\n'}
+[15.901389] (kistar_hand_bridge) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/lib/kistar_hand_bridge/kistar_hand_bridge_node" to ""\n'}
+[15.901576] (kistar_hand_bridge) StdoutLine: {'line': b'-- Installing: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/launch\n'}
+[15.901712] (kistar_hand_bridge) StdoutLine: {'line': b'-- Installing: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/launch/hand_bridge.launch.py\n'}
+[15.901825] (kistar_hand_bridge) StdoutLine: {'line': b'-- Installing: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/ament_index/resource_index/package_run_dependencies/kistar_hand_bridge\n'}
+[15.901933] (kistar_hand_bridge) StdoutLine: {'line': b'-- Installing: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/ament_index/resource_index/parent_prefix_path/kistar_hand_bridge\n'}
+[15.902155] (kistar_hand_bridge) StdoutLine: {'line': b'-- Installing: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/environment/ament_prefix_path.sh\n'}
+[15.902264] (kistar_hand_bridge) StdoutLine: {'line': b'-- Installing: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/environment/ament_prefix_path.dsv\n'}
+[15.902342] (kistar_hand_bridge) StdoutLine: {'line': b'-- Installing: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/environment/path.sh\n'}
+[15.902448] (kistar_hand_bridge) StdoutLine: {'line': b'-- Installing: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/environment/path.dsv\n'}
+[15.902491] (kistar_hand_bridge) StdoutLine: {'line': b'-- Installing: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/local_setup.bash\n'}
+[15.902534] (kistar_hand_bridge) StdoutLine: {'line': b'-- Installing: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/local_setup.sh\n'}
+[15.902575] (kistar_hand_bridge) StdoutLine: {'line': b'-- Installing: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/local_setup.zsh\n'}
+[15.902623] (kistar_hand_bridge) StdoutLine: {'line': b'-- Installing: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/local_setup.dsv\n'}
+[15.902668] (kistar_hand_bridge) StdoutLine: {'line': b'-- Installing: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/package.dsv\n'}
+[15.902709] (kistar_hand_bridge) StdoutLine: {'line': b'-- Installing: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/ament_index/resource_index/packages/kistar_hand_bridge\n'}
+[15.902750] (kistar_hand_bridge) StdoutLine: {'line': b'-- Installing: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/cmake/kistar_hand_bridgeConfig.cmake\n'}
+[15.902790] (kistar_hand_bridge) StdoutLine: {'line': b'-- Installing: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/cmake/kistar_hand_bridgeConfig-version.cmake\n'}
+[15.902831] (kistar_hand_bridge) StdoutLine: {'line': b'-- Installing: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/package.xml\n'}
+[15.903239] (kistar_hand_bridge) CommandEnded: {'returncode': 0}
+[15.917193] (kistar_hand_bridge) JobEnded: {'identifier': 'kistar_hand_bridge', 'rc': 0}
+[15.918311] (-) EventReactorShutdown: {}

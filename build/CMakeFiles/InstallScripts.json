@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/build/cmake_install.cmake",
+		"/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/build/libfranka/cmake_install.cmake",
+		"/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/build/libfranka/common/cmake_install.cmake",
+		"/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/build/test/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

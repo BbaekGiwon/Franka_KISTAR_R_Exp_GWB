@@ -1,0 +1,8 @@
+source;share/kistar_hand_bridge/hook/cmake_prefix_path.ps1
+source;share/kistar_hand_bridge/hook/cmake_prefix_path.dsv
+source;share/kistar_hand_bridge/hook/cmake_prefix_path.sh
+source;share/kistar_hand_bridge/local_setup.bash
+source;share/kistar_hand_bridge/local_setup.dsv
+source;share/kistar_hand_bridge/local_setup.ps1
+source;share/kistar_hand_bridge/local_setup.sh
+source;share/kistar_hand_bridge/local_setup.zsh

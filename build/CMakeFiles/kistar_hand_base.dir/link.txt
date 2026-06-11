@@ -1,0 +1,2 @@
+/usr/bin/ar qc libkistar_hand_base.a CMakeFiles/kistar_hand_base.dir/src/Ethercat_setting.cpp.o CMakeFiles/kistar_hand_base.dir/src/fk_solver.cpp.o CMakeFiles/kistar_hand_base.dir/src/hdf5_logger.cpp.o CMakeFiles/kistar_hand_base.dir/src/shm.cpp.o CMakeFiles/kistar_hand_base.dir/src/shm_print.cpp.o CMakeFiles/kistar_hand_base.dir/src/franka_right_arm.cpp.o CMakeFiles/kistar_hand_base.dir/libfranka/examples/examples_common.cpp.o
+/usr/bin/ranlib libkistar_hand_base.a

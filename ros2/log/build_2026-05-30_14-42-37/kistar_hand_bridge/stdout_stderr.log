@@ -1,0 +1,40 @@
+[ 66%] Building CXX object CMakeFiles/kistar_hand_bridge_node.dir/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/src/shm.cpp.o
+[ 66%] Building CXX object CMakeFiles/kistar_hand_bridge_node.dir/src/kistar_hand_bridge_node.cpp.o
+/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/src/shm.cpp: In function ‘void init_shm(int, int&, SHMmsgs**)’:
+/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/src/shm.cpp:29:20: warning: ‘void* memset(void*, int, size_t)’ clearing an object of type ‘struct SHMmsgs’ with no trivial copy-assignment; use value-initialization instead [-Wclass-memaccess]
+   29 |         std::memset(*shm_ref, 0, sizeof(SHMmsgs));
+      |         ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/src/shm.cpp:1:
+/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/kistar_hand_bridge/../../inc/shm.h:46:8: note: ‘struct SHMmsgs’ declared here
+   46 | struct SHMmsgs {
+      |        ^~~~~~~
+/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/src/shm.cpp: In function ‘void init_arm_traj_shm(int, int&, ArmTrajShm**)’:
+/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/src/shm.cpp:79:20: warning: ‘void* memset(void*, int, size_t)’ clearing an object of type ‘struct ArmTrajShm’ with no trivial copy-assignment; use value-initialization instead [-Wclass-memaccess]
+   79 |         std::memset(*shm_ref, 0, sizeof(ArmTrajShm));
+      |         ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/src/shm.cpp:1:
+/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/kistar_hand_bridge/../../inc/shm.h:41:8: note: ‘struct ArmTrajShm’ declared here
+   41 | struct ArmTrajShm {
+      |        ^~~~~~~~~~
+[100%] Linking CXX executable kistar_hand_bridge_node
+[100%] Built target kistar_hand_bridge_node
+-- Install configuration: ""
+-- Installing: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/lib/kistar_hand_bridge/kistar_hand_bridge_node
+-- Set non-toolchain portion of runtime path of "/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/lib/kistar_hand_bridge/kistar_hand_bridge_node" to ""
+-- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/launch
+-- Installing: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/launch/hand_bridge.launch.py
+-- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/ament_index/resource_index/package_run_dependencies/kistar_hand_bridge
+-- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/ament_index/resource_index/parent_prefix_path/kistar_hand_bridge
+-- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/environment/ament_prefix_path.sh
+-- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/environment/path.sh
+-- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/environment/path.dsv
+-- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/local_setup.bash
+-- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/local_setup.sh
+-- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/local_setup.zsh
+-- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/local_setup.dsv
+-- Installing: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/package.dsv
+-- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/ament_index/resource_index/packages/kistar_hand_bridge
+-- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/cmake/kistar_hand_bridgeConfig.cmake
+-- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/cmake/kistar_hand_bridgeConfig-version.cmake
+-- Up-to-date: /home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/install/kistar_hand_bridge/share/kistar_hand_bridge/package.xml
