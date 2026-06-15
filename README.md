@@ -6,7 +6,7 @@ It receives **joint-space waypoint trajectories** over ROS2 and executes them on
 Designed to work together with [Topdown_Grasp](https://github.com/KIST-HARILAB/Topdown_Grasp), which runs the perception / motion-planning side and publishes the trajectory targets.
 
 - Original code by **[Jaesung Lee](https://github.com/JayLee00)** (PRIME LAB) — [Franka_KISTAR_R_Exp_V1.2_PtoP](https://github.com/JayLee00/Franka_KISTAR_R_Exp_V1.2_PtoP)
-- Modified by **Giwon Baek** (HARI LAB), 2026.06 — PtoP control replaced with waypoint-trajectory execution.
+- Modified by **[Giwon Baek](https://github.com/BbaekGiwon)** (HARI LAB), 2026.06 — PtoP control replaced with waypoint-trajectory execution.
 
 ---
 
