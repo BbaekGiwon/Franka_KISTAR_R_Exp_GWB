@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/prime/Franka_KISTAR_R_Exp_GWB_V1.0/ros2/build/kistar_hand_bridge/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

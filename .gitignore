@@ -1,0 +1,29 @@
+# --- CMake / C++ build output ---
+/build/
+**/build/
+*.o
+*.a
+*.so
+*.so.*
+*.out
+
+# --- ROS2 / colcon ---
+/ros2/build/
+/ros2/install/
+/ros2/log/
+log/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+
+# --- Logs / data ---
+*.log
+*.hdf5
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
