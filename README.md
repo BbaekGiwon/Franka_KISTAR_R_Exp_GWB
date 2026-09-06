@@ -3,7 +3,7 @@
 Real-time control repository for the **Franka Research 3 (FR3)** arm with a **KISTAR Hand**.
 It receives **joint-space waypoint trajectories** over ROS2 and executes them on the FR3 in real time, while driving the KISTAR Hand over EtherCAT.
 
-Designed to work together with [Topdown_Grasp](https://github.com/KIST-HARILAB/Topdown_Grasp), which runs the perception / motion-planning side and publishes the trajectory targets.
+Designed to work together with [Topdown_Grasp](https://github.com/BbaekGiwon/Topdown_Grasp), which runs the perception / motion-planning side and publishes the trajectory targets.
 
 - Original code by **[Jaesung Lee](https://github.com/JayLee00)** (PRIME LAB) — [Franka_KISTAR_R_Exp_V1.2_PtoP](https://github.com/JayLee00/Franka_KISTAR_R_Exp_V1.2_PtoP)
 - Modified by **[Giwon Baek](https://github.com/BbaekGiwon)** (HARI LAB), 2026.06 — Replaced PtoP control with waypoint-trajectory execution.
